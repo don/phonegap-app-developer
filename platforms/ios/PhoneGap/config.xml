@@ -93,9 +93,6 @@
     <feature name="Zip">
         <param name="ios-package" value="ContentSync" />
     </feature>
-    <feature name="BLE">
-        <param name="ios-package" onload="true" value="BLECentralPlugin" />
-    </feature>
     <name>PhoneGap</name>
     <description>
         The PhoneGap Developer app is a testing utility for web developers
@@ -127,4 +124,7 @@
     <preference name="WebViewBounce" value="false" />
     <access origin="*" />
     <content src="index.html" />
+    <feature name="BLE">
+        <param name="ios-package" onload="true" value="BLECentralPlugin" />
+    </feature>
 </widget>

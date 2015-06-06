@@ -163,15 +163,15 @@
                             "count": 1
                         },
                         {
+                            "xml": "<uses-sdk android:minSdkVersion=\"18\" android:targetSdkVersion=\"19\" />",
+                            "count": 1
+                        },
+                        {
                             "xml": "<uses-permission android:name=\"android.permission.BLUETOOTH\" />",
                             "count": 1
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-sdk android:minSdkVersion=\"18\" android:targetSdkVersion=\"19\" />",
                             "count": 1
                         }
                     ]
